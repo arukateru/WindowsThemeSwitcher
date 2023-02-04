@@ -28,7 +28,7 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :-------------------------------------- 
-reg import 19.cmd  
+reg import 19.reg
 schtasks /Change /TN "Basic explorer 2" /Disable
 schtasks /Change /TN "Basic theme 2" /Disable
 taskkill /f /im basictheme.exe
