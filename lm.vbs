@@ -1,0 +1,1 @@
+X=MsgBox("Please log back on again to show the correct caption button size",0+64,"Microsoft Windows")
